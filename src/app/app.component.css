@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+}
+
+.preview-page {
+  align-items: center;
+  background: transparent no-repeat center;
+  background-size: contain;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  stroke: #fff;
+  width: 72px;
+}
+
+.preview-page--button {
+  background-color: #efefef;
+  color: #757575;
+  padding: 0;
+}
